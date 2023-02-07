@@ -1,0 +1,9 @@
+.btn-add {
+  position: relative;
+  top: 40px;
+  left: 100px;
+}
+p {
+  inline-size: 250px;
+  overflow-wrap: break-word;
+}
