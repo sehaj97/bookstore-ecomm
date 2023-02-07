@@ -19,15 +19,23 @@ function Books({ mockData, cart, setCart }) {
                 Add to Cart
               </Button>
             </div>
+
             <img
               src={book.image}
               alt={book.name}
               className="img-thumbnail mx-1"
             />
-            <p>PRICE: ${book.price}</p>
-            <p>{book.title}</p>
-            <p>By: {book.author}</p>
-            <p>Description: {book.description}</p>
+            <div className="info">
+              <p>PRICE: ${book.price}</p>
+              <br />
+              <br />
+              <p>{book.title}</p>
+              <br />
+              <p>By: {book.author}</p>
+              <br />
+              <p>Description: {book.description}</p>
+              <br />
+            </div>
           </div>
         ))}
       </div>
